@@ -22,7 +22,7 @@ if st.button("확인"):
     elif guess > st.session_state.answer:
         st.write("더 작은 숫자입니다.")
     else:
-        st.write(f"축하합니다! {st.session_state.count}번 만에 맞추셨습니다.")
+        st.write(f"축하합니다! {st.session_state.count}번 만에 맞추셨습니다.로또사세요~")
         st.session_state.finished = True
 if st.session_state.finished:
 
@@ -31,4 +31,6 @@ if st.session_state.finished:
         st.session_state.answer = random.randint(1, 100)
         st.session_state.count = 0
         st.session_state.finished = False
+
+st.title("최병근바보~ 오늘 언제 마쳐?")
 
