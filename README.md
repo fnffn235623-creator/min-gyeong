@@ -1,1 +1,1 @@
-# min-gyeong
+# minky-test
