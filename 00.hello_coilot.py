@@ -32,5 +32,5 @@ if st.session_state.finished:
         st.session_state.count = 0
         st.session_state.finished = False
 
-st.title("최병근바보~ 오늘 언제 마쳐?")
+st.title("260318GitHub실습! 민경!")
 
